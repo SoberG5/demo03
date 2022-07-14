@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="/webjars/jquery/3.4.1/dist/jquery.min.js">
+</script>
+<script type="text/javascript">
+  $(function (){
+    $("#zhuce").on("click",function(){
+      var ename=$("#ename").val();
+      var sal=$("#sal").val();
+      var hiredate=$("#hiredate").val();
+      var deptno=$("#deptno").val();
+      if(ename==""){
+        alert("请输入用户名");
+        return;
+      }
+      if(sal==""){
+        alert("请输入薪水");
+        return;
+      }
+      if(hiredate==""){
+        alert("请输入出生日期");
+        return;
+      }
+      if(deptno==0){
+        alert("请选择部门");
+        return;
+      }
+    $.post("regist",{"ename":ename ,"sal":sal,"hiredate":hiredate,"deptno":deptno},function(sb){
+      alert('1111');
+      if(sb.key=="true"){
+        alert('注册成功！');
+        window.location.href="http://127.0.0.1:8080/index";
+      }else{
+        alert('注册失败！请联系管理员！');
+      }
+    },"json");
+  });
+  });
+</script>
+<body>
+<center>
+  <h1>员工</h1>
+
+<table border="1">
+  <tr>
+    <td>员工编号</td>
+    <td>员工姓名</td>
+    <td>员工薪水</td>
+    <td>出生日期</td>
+    <td>所在部门</td>
+  </tr>
+  <tr th:each="user,userStat:${list}">
+    <!--/*@thymesVar id="empno" type=""*/-->
+    <td th:text="${user.empno}">11</td>
+    <td th:text="${user.ename}">admin</td>
+    <td th:text="${#numbers.formatDecimal(user.sal,1,2)}">0</td>
+    <td th:text="${#dates.format(user.hiredate,'yyyy-MM-dd')}"></td>
+    <td th:text="${user.dept.dname}"></td>
+    <td><a href="/update" th:href="@{${url}(id=${user.empno},name=${user.ename},sal=${#numbers.formatDecimal(user.sal,1,2)},date=${#dates.format(user.hiredate,'yyyy-MM-dd')})}">修改</a></td>
+  </tr>
+</table>
+
+<form  >
+  <p>员工姓名：<input type="text" id="ename" name="ename"></p>
+  <p>员工薪水：<input type="text" id="sal" name="sal"></p>
+  <p>出生日期：<input type="text" id="hiredate" name="hiredate"></p>
+  <p>员工部门：<select id="deptno" name="deptno" >
+    <option value="0">请选择</option>
+    <option th:each="u:${xlklist}" th:value="${u.deptno}" th:text="${u.dname}">111</option>
+  </select></p>
+  <p><input type="button" id="zhuce" value="提交"></p>
+</form>
+</center>
+</body>
+</html>

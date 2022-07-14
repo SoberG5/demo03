@@ -1,0 +1,586 @@
+1654757491265|9|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654757491282|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654757491287|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654757491291|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654757491304|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654757491307|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654757596515|7|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654757596529|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654757596535|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654757596542|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654757596550|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654757596551|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654762992379|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763206209|19|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763206219|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763206223|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763206225|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763206230|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763206235|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763206235|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763206237|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763206238|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763206241|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763206250|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763206251|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763256362|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763256365|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763256366|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763256367|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763256369|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763256370|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763256373|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763256378|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763256379|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763256380|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763256381|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763256383|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763293573|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|INSERT INTO emp  ( ename, hiredate, sal )  VALUES  ( ?, ?, ? )|INSERT INTO emp  ( ename, hiredate, sal )  VALUES  ( '볼빨간사춘기', '2020-05-20T00:00:00.000+0800', 99999.0 )
+1654763295188|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763295191|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763295194|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763295196|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763295197|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763295198|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763295198|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763295199|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763295200|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763295201|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763295202|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763295207|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763299846|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763299847|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763299848|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763299849|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763299849|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763299850|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763299851|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763299852|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763299854|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763299857|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763299861|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763299862|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300486|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763300487|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763300489|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763300492|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763300495|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300496|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763300497|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763300498|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763300499|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763300500|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300501|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763300502|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300871|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763300872|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763300875|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763300876|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763300878|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300879|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763300880|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763300881|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763300882|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763300883|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763300884|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763300884|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763301022|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763301023|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763301025|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763301026|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763301027|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763301028|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763301028|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763301029|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763301030|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763301030|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763301031|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763301032|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763314271|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763314272|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763314274|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763314276|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763314277|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763314278|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763314279|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763314280|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763314281|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763314281|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763314283|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763314284|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763322127|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763322128|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763322131|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763322132|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763322133|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763322138|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763322140|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763322143|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763322144|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763322145|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763322146|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763322147|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763369154|9|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763369165|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763369170|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763369171|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763369173|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763369180|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763369183|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763369184|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763369185|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763369187|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763369195|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763369196|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763372025|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763372026|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763372029|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763372030|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763372033|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763372037|3|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763372038|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763372039|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763372040|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763372042|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763372043|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763372044|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763373536|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763373539|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763373541|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763373543|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763373545|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763373546|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763373548|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763373552|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763373555|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763373556|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763373558|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763373559|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374053|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374054|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374055|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374056|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374057|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374058|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374058|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374059|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374060|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374061|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374062|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374062|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374261|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374262|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374263|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374265|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374267|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374273|3|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374274|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374275|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374276|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374277|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374278|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374279|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374453|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374453|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374454|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374455|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374456|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374457|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374457|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374458|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374458|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374459|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374460|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374460|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374584|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374585|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374587|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374589|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374589|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374590|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374591|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374591|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374592|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374593|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374594|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374596|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374765|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374766|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374767|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374770|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374771|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374772|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374773|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374774|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374774|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374775|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374776|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374777|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374980|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374981|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374983|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374985|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374986|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374990|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763374990|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763374991|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763374992|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763374993|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763374994|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763374995|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375149|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375149|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375150|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375151|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375152|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375155|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375156|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375156|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375157|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375157|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375159|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375159|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375293|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375294|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375295|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375295|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375296|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375297|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375299|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375303|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375306|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375307|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375308|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375309|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375453|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375454|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375454|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375455|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375455|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375457|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375457|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375458|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375458|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375459|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375460|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375460|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375611|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375612|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375612|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375613|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375616|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375618|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375620|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375621|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375621|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375622|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375623|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375623|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375773|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375774|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375774|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375775|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375776|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375777|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375777|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375778|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375778|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375779|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375780|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375781|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375934|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375936|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375937|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375938|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375938|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375939|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763375939|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763375940|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763375940|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763375941|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763375942|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763375942|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376094|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376095|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376095|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376096|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376097|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376098|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376099|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376100|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376100|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376101|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376104|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763376105|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376271|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376272|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376273|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376273|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376274|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376275|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376275|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376276|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376276|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376276|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376277|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763376278|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376708|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376709|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376709|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376710|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376710|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376711|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376711|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376712|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376712|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376712|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376715|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763376716|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376869|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376870|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376870|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376870|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376871|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376872|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763376872|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763376873|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763376873|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763376874|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763376874|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763376875|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763377028|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763377028|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763377029|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763377029|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763377030|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763377031|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763377034|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763377035|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763377037|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763377038|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763377039|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763377040|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763404487|7|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763404495|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763404502|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763404504|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763404506|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763404519|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763404520|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763404521|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763404522|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763404523|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763404533|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763404534|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763406744|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763406746|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763406751|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763406752|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763406754|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763406755|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763406756|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763406757|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763406758|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763406758|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763406760|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763406763|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407324|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407325|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407326|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407327|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407329|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407331|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407334|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407335|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407337|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407338|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407339|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763407339|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407798|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407800|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407802|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407803|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407804|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407806|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407806|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407807|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407809|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407810|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407811|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763407811|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407957|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407958|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407959|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407960|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407961|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407963|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763407964|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763407967|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763407968|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763407969|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763407970|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763407971|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408092|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408093|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408094|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408098|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408101|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408105|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408106|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408107|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408108|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408109|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408110|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763408111|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408236|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408237|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408238|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408239|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408240|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408241|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408241|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408243|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408244|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408245|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408250|3|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763408252|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408368|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408370|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408371|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408373|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408374|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408375|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763408376|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763408377|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763408378|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763408382|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763408388|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763408388|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763428353|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763428354|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763437126|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=12 
+1654763437149|3|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|UPDATE emp  SET ename=?, hiredate=?, sal=?  WHERE empno=?|UPDATE emp  SET ename='陈锦辉', hiredate='2022-05-19T00:00:00.000+0800', sal=5000.0  WHERE empno=12
+1654763437151|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763437805|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763437805|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763437808|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763437810|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763437814|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763437816|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno|select * from emp d right join dept e         on e.deptno=d.deptno
+1654763437818|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1654763437819|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=2
+1654763437820|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=4
+1654763437820|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1654763437822|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select  * from dept;|select  * from dept;
+1654763437822|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656223061497|30|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp|SELECT COUNT(*) AS total FROM emp
+1656223061523|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT ?|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT 1
+1656223563663|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656223563668|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656223610871|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656223610873|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656223611512|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656223611516|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656223611676|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656223611678|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656225713413|13|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656225713442|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656225738741|3|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656225738743|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656225853636|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=11 
+1656225853638|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226099423|1|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=12 
+1656226099426|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226103462|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=13 
+1656226103468|1|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226123257|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=14 
+1656226123259|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226129635|1|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=15 
+1656226129638|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226137319|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=29 
+1656226137320|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226153024|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=41 
+1656226153026|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226161124|1|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=43 
+1656226161126|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226230754|4|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|DELETE FROM emp WHERE empno=?|DELETE FROM emp WHERE empno=41
+1656226230757|3|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226304213|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=41 
+1656226304226|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226307544|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=41 
+1656226307545|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226354461|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=? |SELECT empno,ename,hiredate,sal,deptno FROM emp WHERE empno=45 
+1656226354469|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226382623|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|DELETE FROM emp WHERE empno=?|DELETE FROM emp WHERE empno=45
+1656226382625|1|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656226436447|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp|SELECT COUNT(*) AS total FROM emp
+1656226436455|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT ?,?|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT 1,1
+1656226459640|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp|SELECT COUNT(*) AS total FROM emp
+1656226459645|2|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT ?,?|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT 2,2
+1656226484483|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp|SELECT COUNT(*) AS total FROM emp
+1656226484485|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT ?,?|SELECT  empno,ename,hiredate,sal,deptno  FROM emp LIMIT 4,2
+1656474652481|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656474772520|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656474955110|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475314377|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475447352|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475518533|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475610042|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475706960|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475707631|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475707817|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475707968|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475708088|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475708276|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475756904|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475836340|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656475913181|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656476105058|30|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp|SELECT  empno,ename,hiredate,sal,deptno  FROM emp
+1656476105174|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656486908697|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656486926544|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656487028758|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656487106356|20|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE ? OR hiredate <= ?)|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE '%sb%' OR hiredate <= NULL)
+1656487106372|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656487116242|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE ? OR hiredate <= ?)|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE '%sb%' OR hiredate <= NULL)
+1656487116243|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656487127813|1|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE ? OR hiredate <= ?)|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE '%sb%' OR hiredate <= NULL)
+1656487127814|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656487145486|7|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE ? OR hiredate <= ?)|SELECT COUNT(*) AS total FROM emp d RIGHT JOIN dept e ON e.deptno = d.deptno WHERE (ename LIKE '%sb%' OR hiredate <= '2022-10-10T00:00:00.000+0800')
+1656487145494|2|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from emp d right join dept e         on e.deptno=d.deptno             WHERE (ename LIKE ? OR hiredate <= ?) LIMIT ?|select * from emp d right join dept e         on e.deptno=d.deptno             WHERE (ename LIKE '%sb%' OR hiredate <= '2022-10-10T00:00:00.000+0800') LIMIT 1
+1656487145500|2|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept where deptno=?|select * from dept where deptno=1
+1656487145503|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656558891018|9|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  deptno,dname,loc  FROM dept|SELECT  deptno,dname,loc  FROM dept
+1656561770877|10|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = ?)|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = 2)
+1656562586596|0|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = ?)|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = 2)
+1656571867748|27|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.dept_no=d.deptno|select * from dept d right join emp e                                         on e.dept_no=d.deptno
+1656571867797|0|rollback|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656571923613|16|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656571923641|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656572426430|7|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656572426446|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656572648711|10|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656572648725|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656572794802|8|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656572794813|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656572985225|1|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656572985236|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656573541063|3|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656573541070|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656573563840|2|statement|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656573563845|0|commit|connection 10|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656573912268|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656573912283|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574313147|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574313161|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574366076|1|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574366086|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574491592|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574491607|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574568233|7|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574568245|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574590232|0|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574590238|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656574678336|6|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|select * from dept d right join emp e                                         on e.deptno=d.deptno|select * from dept d right join emp e                                         on e.deptno=d.deptno
+1656574678350|0|commit|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT||
+1656734889586|26|statement|connection 0|url jdbc:p6spy:mysql:///text?serverTimezone=GMT|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = ?)|SELECT  empno,ename,hiredate,sal,deptno  FROM emp     WHERE (deptno = 2)

@@ -1,0 +1,30 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    #开发时关闭缓存(模板只加载一次),不然没法看到实时页面需要重构或重启
+    cache: false
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Emp
+
+  datasource:
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql:///text?serverTimezone=GMT
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.cssl.pojo
+  mapper-locations: classpath:/mapper/**
+  configuration:
+    auto-mapping-behavior: full
+    use-generated-keys: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false   #默认true开启驼峰命名
+  global-config:
+    db-config:
+      id-type: auto
+
+
+

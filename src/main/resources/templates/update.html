@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="/webjars/jquery/3.4.1/dist/jquery.min.js">
+</script>
+<script type="text/javascript">
+    $(function (){
+        $("#update").on("click",function(){
+            var ename=$("#ename").val();
+            var empno=$("#empno").val();
+            var sal=$("#sal").val();
+            var hiredate=$("#hiredate").val();
+            var deptno=$("#deptno").val();
+            if(ename==""){
+                alert("请输入用户名");
+                return;
+            }
+            if(sal==""){
+                alert("请输入薪水");
+                return;
+            }
+            if(hiredate==""){
+                alert("请输入出生日期");
+                return;
+            }
+            if(deptno==0){
+                alert("请选择部门");
+                return;
+            }
+            $.post("update",{"empno":empno,"ename":ename ,"sal":sal,"hiredate":hiredate,"deptno":deptno},function(sb){
+                if(sb.key=="true"){
+                    alert('修改成功！');
+                    window.location.href="http://127.0.0.1:8080/index";
+                }else{
+                    alert('修改失败！请联系管理员！');
+                }
+            },"json");
+        });
+    });
+</script>
+<body>
+<h1>修改用户信息</h1>
+<form  th:object="${user}">
+    <input type="hidden" id="empno" name="empno" th:value="*{empno}">
+    <p>员工姓名：<input type="text" th:value="*{ename}" id="ename" name="ename"></p>
+    <p>员工薪水：<input type="text" th:value="*{sal}" id="sal" name="sal"></p>
+    <p>出生日期：<input type="text" th:value="*{hiredate}" id="hiredate" name="hiredate"></p>
+    <p><input type="button" id="update" value="修改"></p>
+</form>
+</body>
+</html>
